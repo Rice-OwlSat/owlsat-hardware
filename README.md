@@ -10,9 +10,9 @@ LTSPICE - Circuit simulator for Windows and MacOS, works well under Wine with Li
 
 # To-do (this is somewhat still a jumble of useful ideas)
 
-- Copy OWK repo hardware
+- ~~Copy OWK repo hardware~~
 - figure out what parts to keep and what to shave off
-- consolidate evrything we need into one board
+- consolidate everything we need into one board
 - use ADM1176 properly or remove (per mlyle's suggestion)
 - make transimpedance amp EUV measurement subsystem
 - add magnetorquer subsystem (max22200 full bridge driver)
