@@ -8,7 +8,7 @@ LTSPICE - Circuit simulator for Windows and MacOS, works well under Wine with Li
 
 (or alternatively use Falstad (https://www.falstad.com/circuit/) as it's a simpler interface and just as good for simple circuits that don't require specialized ICs)
 
-git - FOSS version control software. Use git bash for Windows and optionally github desktop of another GUI for easier management.
+git - FOSS version control software. Use Git Bash for Windows and optionally GitHub Desktop or another GUI for easier management.
 
 # To-do (this is somewhat still a jumble of useful ideas)
 
