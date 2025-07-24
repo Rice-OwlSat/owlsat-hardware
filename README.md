@@ -23,3 +23,4 @@ git - FOSS version control software. Use Git Bash for Windows and optionally Git
 - change connectors to be less expensive but still reliable (however we will likely still have to use something expensive for the important connectors like battery)
 - reorganize power domains
 - re-layout board
+- ensure we can build circuitpython firmware for our specific board
