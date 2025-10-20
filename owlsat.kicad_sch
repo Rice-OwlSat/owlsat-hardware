@@ -49,7 +49,7 @@
 		)
 		(uuid "47fe03d1-bf83-43a2-8cc1-6d83359d2dd8")
 	)
-	(text "OwlSat was developed by students at Rice University\nunder the direction of Dr. Patricia Reiff, Charlotte, \nLuke, Roman, Enzo...\nBased off the Obi Wan Komputer based on the work of \nstudents at Oakwood High School under the direction of Michael Lyle\nIn turn based on the PyCubed project by Maximilian Holliday\n\nAs all previous work was licensed under CC BY-SA 4.0,\nthis work OwlSat Mainboard (c) 2025- by Rice University\nis licensed under the same license. To view a copy of this license, visit\nhttps://creativecommons.org/licenses/by-sa/4.0/"
+	(text "OwlSat was developed by students at Rice University\nunder the direction of Dr. Patricia Reiff, Charlotte, \nBrandon, Luke, Roman, Enzo, Andrew, Clay, Jose...\nBased off the Obi Wan Komputer based on the work of \nstudents at Oakwood High School under the direction of Michael Lyle\nIn turn based on the PyCubed project by Maximilian Holliday\n\nAs all previous work was licensed under CC BY-SA 4.0,\nthis work OwlSat Mainboard (c) 2025- by Rice University\nis licensed under the same license. To view a copy of this license, visit\nhttps://creativecommons.org/licenses/by-sa/4.0/"
 		(exclude_from_sim no)
 		(at 14.732 26.416 0)
 		(effects
@@ -538,7 +538,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d34b429f-9769-45e3-9c6a-102d3b8133f1")
-		(property "Sheetname" "Burn Wires"
+		(property "Sheetname" "Burn Wires and Thermal"
 			(at 110.49 48.8184 0)
 			(effects
 				(font
