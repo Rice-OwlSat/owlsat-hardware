@@ -1,0 +1,623 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "31ba118e-63c6-4589-abeb-d0c379bb13c1")
+	(paper "User" 203.2 152.4)
+	(lib_symbols)
+	(text "Possibly add in switching regulator for radio for added efficiency\nLook at AMSAT documentation for compatibility details though"
+		(exclude_from_sim no)
+		(at 94.234 22.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03a2704f-0ad7-4146-b818-fcf052666987")
+	)
+	(text "MPPT tracking chargers\nand solar voltage\nmonitoring"
+		(exclude_from_sim no)
+		(at 80.772 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12709db9-58f2-48bc-b609-489eeffaabec")
+	)
+	(text "Discrete watchdog timer\nfor MCU fault detection"
+		(exclude_from_sim no)
+		(at 18.161 72.517 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ba57c45-b670-481e-966b-360b8694cc03")
+	)
+	(text "Stacking connector,\nUSB-C,\nBattery connector\nSD card??"
+		(exclude_from_sim no)
+		(at 51.054 54.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47fe03d1-bf83-43a2-8cc1-6d83359d2dd8")
+	)
+	(text "OwlSat was developed by students at Rice University\nunder the direction of Dr. Patricia Reiff, Charlotte, \nBrandon, Luke, Roman, Enzo, Andrew, Clay, Jose...\nBased off the Obi Wan Komputer based on the work of \nstudents at Oakwood High School under the direction of Michael Lyle\nIn turn based on the PyCubed project by Maximilian Holliday\n\nAs all previous work was licensed under CC BY-SA 4.0,\nthis work OwlSat Mainboard (c) 2025- by Rice University\nis licensed under the same license. To view a copy of this license, visit\nhttps://creativecommons.org/licenses/by-sa/4.0/"
+		(exclude_from_sim no)
+		(at 14.732 26.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+			(href "https://creativecommons.org/licenses/by-sa/4.0/")
+		)
+		(uuid "4f176284-edb4-4f41-ba5f-4690ceaddc49")
+	)
+	(text "USB battery charger,\n3.3v regulator\nsome switching\nand power path,\nlatchup OC protection,\nbattery fuel gauge,\nbattery NTC"
+		(exclude_from_sim no)
+		(at 80.01 54.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52176ce8-3776-4b0d-a8ff-da1af144fba7")
+	)
+	(text "I2C bus protection"
+		(exclude_from_sim no)
+		(at 34.29 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "741df3a7-efcb-44bf-9642-a88ce54efa8b")
+	)
+	(text "Mux, \ntransimpedance amp,\nADC,\nPhotodiode connectors"
+		(exclude_from_sim no)
+		(at 141.732 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ff73e98-b900-4d82-b4f2-931189d8f4f1")
+	)
+	(text "Make subcircuits"
+		(exclude_from_sim no)
+		(at 24.13 103.378 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b8f6db2-83ed-41f9-b3e4-17f12c5ae27a")
+	)
+	(text "Magnetorquer driver,\nIMU,\nMagnetorquer supply\nconditioning"
+		(exclude_from_sim no)
+		(at 110.744 74.549 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af34d85a-1977-44ae-b409-15fe2245b3af")
+	)
+	(text "GPS module, \nantenna connector,\nantenna splitter?,\nCANBUS transciever\nfor AMSAT"
+		(exclude_from_sim no)
+		(at 51.054 75.692 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db37fa7d-a06e-4d06-8307-205dcd447e21")
+	)
+	(text "Burn wire drivers\nBattery heater driver?"
+		(exclude_from_sim no)
+		(at 110.871 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0142052-5bca-4451-90e2-2e692a0fdb7b")
+	)
+	(text "NyanSat uses I2C to SPI ICs, maybe we can make a SPI protector to avoid having another chip"
+		(exclude_from_sim no)
+		(at 16.51 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9d549b2-b3de-4825-a68e-3911caf67e09")
+	)
+	(text "RP2350B and \nsupporting circuitry,\nRTC and backup battery?\nBlinkenlights\nButtons"
+		(exclude_from_sim no)
+		(at 18.288 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1bf36d2-fa12-472d-b854-41d050cf28cd")
+	)
+	(text "TODO: Look at errata, add in ICs"
+		(exclude_from_sim no)
+		(at 94.742 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4491734-4a80-406f-90bc-3aa25620b8b6")
+	)
+	(sheet
+		(at 24.765 107.315)
+		(size 22.86 10.795)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29e7ecbe-dc53-4e23-a49b-56d585a81bfe")
+		(property "Sheetname" "Bus protection"
+			(at 24.765 106.6034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bus protection.kicad_sch"
+			(at 24.765 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "owlsat"
+				(path "/31ba118e-63c6-4589-abeb-d0c379bb13c1"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 69.85)
+		(size 23.495 10.795)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "47353b96-9fd2-4259-b519-f93763fd2793")
+		(property "Sheetname" "Attitude Control"
+			(at 110.49 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ACS.kicad_sch"
+			(at 110.49 81.2296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 110.49 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "owlsat"
+				(path "/31ba118e-63c6-4589-abeb-d0c379bb13c1"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 69.85)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5cea79db-c025-46d4-93a6-7012455f5213")
+		(property "Sheetname" "Solar chargers"
+			(at 80.01 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solar.kicad_sch"
+			(at 80.01 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "owlsat"
+				(path "/31ba118e-63c6-4589-abeb-d0c379bb13c1"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 69.85)
+		(size 24.765 12.065)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "68715d71-2ad4-44d5-9eab-cd2684c02d13")
+		(property "Sheetname" "Watchdog"
+			(at 17.78 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "watchdog.kicad_sch"
+			(at 17.78 82.4996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "owlsat"
+				(path "/31ba118e-63c6-4589-abeb-d0c379bb13c1"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 49.53)
+		(size 26.035 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "765b5454-d163-4870-9725-3a84da116569")
+		(property "Sheetname" "EUV array"
+			(at 140.97 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EUV.kicad_sch"
+			(at 140.97 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "owlsat"
+				(path "/31ba118e-63c6-4589-abeb-d0c379bb13c1"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 69.85)
+		(size 23.495 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ed2ff9f-3d2c-43aa-a7b7-19d1917ad26e")
+		(property "Sheetname" "GPS and CAN"
+			(at 50.8 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS+CAN.kicad_sch"
+			(at 50.8 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "owlsat"
+				(path "/31ba118e-63c6-4589-abeb-d0c379bb13c1"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 49.53)
+		(size 20.955 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c055c21a-8fa5-46e2-91f0-eb6985e83968")
+		(property "Sheetname" "Connectors"
+			(at 50.8 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 50.8 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "owlsat"
+				(path "/31ba118e-63c6-4589-abeb-d0c379bb13c1"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 49.53)
+		(size 26.67 12.065)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c6c9b9a9-ddbf-445b-97cd-a6e878077684")
+		(property "Sheetname" "Avionics"
+			(at 17.78 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Avionics.kicad_sch"
+			(at 17.78 62.1796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 17.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "owlsat"
+				(path "/31ba118e-63c6-4589-abeb-d0c379bb13c1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 49.53)
+		(size 24.13 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d34b429f-9769-45e3-9c6a-102d3b8133f1")
+		(property "Sheetname" "Burn Wires and Thermal"
+			(at 110.49 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Burn Wires.kicad_sch"
+			(at 110.49 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 110.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "owlsat"
+				(path "/31ba118e-63c6-4589-abeb-d0c379bb13c1"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 46.355)
+		(size 23.495 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f07a0898-4466-4748-a55a-99724e65b6c5")
+		(property "Sheetname" "Power"
+			(at 80.01 45.6434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 80.01 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "owlsat"
+				(path "/31ba118e-63c6-4589-abeb-d0c379bb13c1"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
