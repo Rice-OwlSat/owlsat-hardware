@@ -2504,6 +2504,18 @@
 		)
 		(uuid "5bff4a57-6f8b-4b36-8a5e-eed2cb4a7338")
 	)
+	(text "Downloaded the ABM8-272-T3 crystal though \nunsure if it is completely accessible within \nthe Git."
+		(exclude_from_sim no)
+		(at 186.69 74.93 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 43 47 255 1)
+			)
+			(justify left)
+		)
+		(uuid "649b3ae4-5de3-4c88-979b-41322509ea97")
+	)
 	(text "Why are there resistors with R = DNF???"
 		(exclude_from_sim no)
 		(at 234.95 53.34 0)

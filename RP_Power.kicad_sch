@@ -1215,7 +1215,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1f3b18c4-7229-4c51-9780-73b24de0042c")
+		(uuid "1f3b18c4-7229-4c51-9780-73b24de0042d")
 	)
 	(symbol
 		(lib_id "Device:C")

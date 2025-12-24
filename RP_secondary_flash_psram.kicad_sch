@@ -960,7 +960,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "67d78759-4496-4087-922f-ef338c10f194")
+		(uuid "67d78759-4496-4087-922f-ef338c10f195")
 	)
 	(label "QSPI_SD2"
 		(at 156.21 116.84 180)
@@ -970,7 +970,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "67d78759-4496-4087-922f-ef338c10f194")
+		(uuid "67d78759-4496-4087-922f-ef338c10f196")
 	)
 	(label "QSPI_SD0"
 		(at 156.21 111.76 180)
@@ -980,7 +980,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "67d78759-4496-4087-922f-ef338c10f194")
+		(uuid "67d78759-4496-4087-922f-ef338c10f197")
 	)
 	(label "QSPI_SD3"
 		(at 156.21 119.38 180)
@@ -990,7 +990,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "67d78759-4496-4087-922f-ef338c10f194")
+		(uuid "67d78759-4496-4087-922f-ef338c10f198")
 	)
 	(label "GPIO0"
 		(at 177.8 106.68 180)
@@ -1000,7 +1000,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "67d78759-4496-4087-922f-ef338c10f194")
+		(uuid "67d78759-4496-4087-922f-ef338c10f199")
 	)
 	(label "QSPI_SCLK"
 		(at 156.21 109.22 180)
@@ -1010,7 +1010,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "67d78759-4496-4087-922f-ef338c10f194")
+		(uuid "67d78759-4496-4087-922f-ef338c10f19a")
 	)
 	(symbol
 		(lib_id "power:+3V3")

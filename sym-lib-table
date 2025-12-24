@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "rp2350a-qfn60")(type "KiCad")(uri "${KIPRJMOD}/symbols/rp2350a-qfn60.kicad_sym")(options "")(descr ""))
   (lib (name "rp2350b-qfn80")(type "KiCad")(uri "${KIPRJMOD}/symbols/rp2350b-qfn80.kicad_sym")(options "")(descr ""))
+  (lib (name "ABM8-272-T3")(type "KiCad")(uri "C:/Users/micah/Downloads/KiCADv6/2025-12-23_03-35-11.kicad_sym")(options "")(descr ""))
+  (lib (name "SM03B-SRSS-TB")(type "KiCad")(uri "C:/Users/micah/Downloads/ul_SM03B-SRSS-TB/KiCADv6/2025-12-23_04-50-52.kicad_sym")(options "")(descr ""))
 )

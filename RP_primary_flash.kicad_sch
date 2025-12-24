@@ -994,7 +994,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ebc72b8f-e74a-4bbb-a0b3-747688c2f9f9")
+		(uuid "ebc72b8f-e74a-4bbb-a0b3-747688c2f9fa")
 	)
 	(label "QSPI_SD0"
 		(at 92.71 90.17 0)
@@ -1004,7 +1004,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ebc72b8f-e74a-4bbb-a0b3-747688c2f9f9")
+		(uuid "ebc72b8f-e74a-4bbb-a0b3-747688c2f9fb")
 	)
 	(label "QSPI_SD1"
 		(at 92.71 92.71 0)
@@ -1014,7 +1014,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ebc72b8f-e74a-4bbb-a0b3-747688c2f9f9")
+		(uuid "ebc72b8f-e74a-4bbb-a0b3-747688c2f9fc")
 	)
 	(label "QSPI_SD2"
 		(at 92.71 95.25 0)
@@ -1024,7 +1024,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ebc72b8f-e74a-4bbb-a0b3-747688c2f9f9")
+		(uuid "ebc72b8f-e74a-4bbb-a0b3-747688c2f9fd")
 	)
 	(label "QSPI_SD3"
 		(at 92.71 97.79 0)
@@ -1034,7 +1034,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ebc72b8f-e74a-4bbb-a0b3-747688c2f9f9")
+		(uuid "ebc72b8f-e74a-4bbb-a0b3-747688c2f9fe")
 	)
 	(label "QSPI_SS"
 		(at 63.5 85.09 0)
@@ -1044,7 +1044,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ebc72b8f-e74a-4bbb-a0b3-747688c2f9f9")
+		(uuid "ebc72b8f-e74a-4bbb-a0b3-747688c2f9ff")
 	)
 	(label "GPIO0"
 		(at 63.5 76.2 0)
@@ -1054,7 +1054,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ebc72b8f-e74a-4bbb-a0b3-747688c2f9f9")
+		(uuid "ebc72b8f-e74a-4bbb-a0b3-747688c2fa00")
 	)
 	(symbol
 		(lib_id "power:GND")

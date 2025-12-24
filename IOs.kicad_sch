@@ -3712,7 +3712,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b4e")
+		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b4f")
 	)
 	(label "GPIO21"
 		(at 99.06 121.92 180)
@@ -3722,7 +3722,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b4e")
+		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b50")
 	)
 	(label "GPIO13"
 		(at 99.06 101.6 180)
@@ -3732,7 +3732,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b4e")
+		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b51")
 	)
 	(label "GPIO14"
 		(at 99.06 104.14 180)
@@ -3742,7 +3742,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b4e")
+		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b52")
 	)
 	(label "GPIO12"
 		(at 99.06 99.06 180)
@@ -3752,7 +3752,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b4e")
+		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b53")
 	)
 	(label "GPIO17"
 		(at 99.06 111.76 180)
@@ -3762,7 +3762,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b4e")
+		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b54")
 	)
 	(label "GPIO18"
 		(at 99.06 114.3 180)
@@ -3772,7 +3772,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b4e")
+		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b55")
 	)
 	(label "GPIO16"
 		(at 99.06 109.22 180)
@@ -3782,7 +3782,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b4e")
+		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b56")
 	)
 	(label "GPIO15"
 		(at 99.06 106.68 180)
@@ -3792,7 +3792,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b4e")
+		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b57")
 	)
 	(label "GPIO23"
 		(at 99.06 127 180)
@@ -3802,7 +3802,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b4e")
+		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b58")
 	)
 	(label "GPIO22"
 		(at 99.06 124.46 180)
@@ -3812,7 +3812,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b4e")
+		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b59")
 	)
 	(label "GPIO24"
 		(at 99.06 129.54 180)
@@ -3822,7 +3822,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b4e")
+		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b5a")
 	)
 	(label "GPIO27"
 		(at 115.57 124.46 0)
@@ -3832,7 +3832,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b4e")
+		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b5b")
 	)
 	(label "GPIO25"
 		(at 115.57 129.54 0)
@@ -3842,7 +3842,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b4e")
+		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b5c")
 	)
 	(label "GPIO26"
 		(at 115.57 127 0)
@@ -3852,7 +3852,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b4e")
+		(uuid "2465566e-2b0c-49ae-846f-7bb57ac15b5d")
 	)
 	(label "GPIO11"
 		(at 99.06 96.52 180)
@@ -3872,7 +3872,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e5b")
+		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e5c")
 	)
 	(label "GPIO8"
 		(at 99.06 88.9 180)
@@ -3882,7 +3882,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e5b")
+		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e5d")
 	)
 	(label "GPIO6"
 		(at 99.06 83.82 180)
@@ -3892,7 +3892,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e5b")
+		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e5e")
 	)
 	(label "GPIO5"
 		(at 99.06 81.28 180)
@@ -3902,7 +3902,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e5b")
+		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e5f")
 	)
 	(label "GPIO3"
 		(at 99.06 76.2 180)
@@ -3912,7 +3912,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e5b")
+		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e60")
 	)
 	(label "GPIO4"
 		(at 99.06 78.74 180)
@@ -3922,7 +3922,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e5b")
+		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e61")
 	)
 	(label "GPIO2"
 		(at 99.06 73.66 180)
@@ -3932,7 +3932,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e5b")
+		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e62")
 	)
 	(label "GPIO10"
 		(at 99.06 93.98 180)
@@ -3942,7 +3942,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e5b")
+		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e63")
 	)
 	(label "GPIO9"
 		(at 99.06 91.44 180)
@@ -3952,7 +3952,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e5b")
+		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e64")
 	)
 	(label "GPIO0"
 		(at 99.06 68.58 180)
@@ -3962,7 +3962,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e5b")
+		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e65")
 	)
 	(label "GPIO1"
 		(at 99.06 71.12 180)
@@ -3972,7 +3972,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e5b")
+		(uuid "2851e786-ba7b-44af-bd06-05dec6b63e66")
 	)
 	(label "GPIO40_ADC0"
 		(at 115.57 83.82 0)
@@ -3992,7 +3992,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb411358")
 	)
 	(label "GPIO42_ADC2"
 		(at 115.57 78.74 0)
@@ -4002,7 +4002,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb411359")
 	)
 	(label "GPIO43_ADC3"
 		(at 115.57 76.2 0)
@@ -4012,7 +4012,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb41135a")
 	)
 	(label "GPIO40_ADC7"
 		(at 115.57 66.04 0)
@@ -4022,7 +4022,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb41135b")
 	)
 	(label "GPIO44_ADC4"
 		(at 115.57 73.66 0)
@@ -4032,7 +4032,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb41135c")
 	)
 	(label "GPIO45_ADC5"
 		(at 115.57 71.12 0)
@@ -4042,7 +4042,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb41135d")
 	)
 	(label "GPIO46_ADC6"
 		(at 115.57 68.58 0)
@@ -4052,7 +4052,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb41135e")
 	)
 	(label "SWCLIK"
 		(at 115.57 121.92 0)
@@ -4062,7 +4062,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb41135f")
 	)
 	(label "SWD"
 		(at 115.57 119.38 0)
@@ -4072,7 +4072,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb411360")
 	)
 	(label "GPIO30"
 		(at 115.57 109.22 0)
@@ -4082,7 +4082,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb411361")
 	)
 	(label "RUN"
 		(at 115.57 116.84 0)
@@ -4092,7 +4092,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb411362")
 	)
 	(label "GPIO28"
 		(at 115.57 114.3 0)
@@ -4102,7 +4102,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb411363")
 	)
 	(label "GPIO29"
 		(at 115.57 111.76 0)
@@ -4112,7 +4112,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb411364")
 	)
 	(label "GPIO31"
 		(at 115.57 106.68 0)
@@ -4122,7 +4122,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb411365")
 	)
 	(label "GPIO32"
 		(at 115.57 104.14 0)
@@ -4132,7 +4132,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb411366")
 	)
 	(label "GPIO33"
 		(at 115.57 101.6 0)
@@ -4142,7 +4142,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb411367")
 	)
 	(label "GPIO34"
 		(at 115.57 99.06 0)
@@ -4152,7 +4152,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb411368")
 	)
 	(label "GPIO35"
 		(at 115.57 96.52 0)
@@ -4162,7 +4162,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb411369")
 	)
 	(label "GPIO36"
 		(at 115.57 93.98 0)
@@ -4172,7 +4172,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb41136a")
 	)
 	(label "GPIO37"
 		(at 115.57 91.44 0)
@@ -4182,7 +4182,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb41136b")
 	)
 	(label "GPIO38"
 		(at 115.57 88.9 0)
@@ -4192,7 +4192,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb41136c")
 	)
 	(label "GPIO39"
 		(at 115.57 86.36 0)
@@ -4202,7 +4202,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df2efca5-b156-4c97-999c-d3fabb411357")
+		(uuid "df2efca5-b156-4c97-999c-d3fabb41136d")
 	)
 	(symbol
 		(lib_id "power:GND")
