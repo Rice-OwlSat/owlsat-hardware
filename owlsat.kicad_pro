@@ -653,30 +653,6 @@
     [
       "47353b96-9fd2-4259-b519-f93763fd2793",
       "Attitude Control"
-    ],
-    [
-      "2b9d9c21-20e3-41de-b152-befe412a727b",
-      "RP Power"
-    ],
-    [
-      "5e3b811d-7910-4360-a32f-1022f3fe88d7",
-      "Primary Flash"
-    ],
-    [
-      "9b7bd73c-de68-4a8e-a2df-6a097a618ad9",
-      "Secondary Flash\\PSRAM"
-    ],
-    [
-      "0aca8033-e3d6-465b-b20f-6a45b4e1977d",
-      "12MHz Crystal"
-    ],
-    [
-      "aed245b1-c300-4a46-930a-ddc9d94147a3",
-      "IOs"
-    ],
-    [
-      "266ce9e5-2999-4c85-a3f1-1dd81239aec3",
-      "JST Debug Connector"
     ]
   ],
   "text_variables": {}

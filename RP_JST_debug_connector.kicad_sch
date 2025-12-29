@@ -5,7 +5,7 @@
 	(uuid "e6979843-a3e6-4292-bb04-4a25da187634")
 	(paper "A4")
 	(lib_symbols
-		(symbol "SM03B-SRSS-TB:SM03B-SRSS-TB"
+		(symbol "2025-12-23_04-50-52:SM03B-SRSS-TB"
 			(pin_names
 				(offset 0.254)
 			)
@@ -21,7 +21,7 @@
 				)
 			)
 			(property "Value" "SM03B-SRSS-TB"
-				(at 0 0 0)
+				(at -0.508 3.81 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -29,7 +29,7 @@
 				)
 			)
 			(property "Footprint" "CONN_SM03B-SRSS-TB_JST"
-				(at 0 0 0)
+				(at -1.016 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -86,7 +86,7 @@
 			(symbol "SM03B-SRSS-TB_1_1"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -7.62)
+						(xy 5.08 2.54) (xy 5.08 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -98,7 +98,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -7.62) (xy 12.7 -7.62)
+						(xy 5.08 -10.16) (xy 12.7 -10.16)
 					)
 					(stroke
 						(width 0.127)
@@ -230,7 +230,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -7.62) (xy 12.7 2.54)
+						(xy 12.7 -10.16) (xy 12.7 2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -287,6 +287,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -12.7 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -611,26 +629,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "<-- Should be an MP here"
-		(exclude_from_sim no)
-		(at 154.94 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "191cb89f-cdb7-4016-ba0b-8f4a3fbee9a4")
-	)
-	(text "This doesn't seem to match, but I'm going to save this for now\nand get back to it later.\nThere should be an MP where wire connects to nowhere on the SM03B."
-		(exclude_from_sim no)
-		(at 139.7 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b8906259-6185-4268-b39e-5c5ad14172df")
-	)
 	(junction
 		(at 128.27 119.38)
 		(diameter 0)
@@ -649,6 +647,26 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 101.6) (xy 132.08 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae177d2-4435-47b6-8f99-c3d4a251893e")
+	)
+	(wire
+		(pts
+			(xy 120.65 106.68) (xy 132.08 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df01761-422e-4a6f-9214-f38733dfaf36")
+	)
+	(wire
+		(pts
 			(xy 132.08 104.14) (xy 128.27 104.14)
 		)
 		(stroke
@@ -656,16 +674,6 @@
 			(type default)
 		)
 		(uuid "43c1e24e-b1ea-4192-b485-f8e85c76e628")
-	)
-	(wire
-		(pts
-			(xy 120.65 101.6) (xy 132.08 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f7a8644-eb68-4461-989e-2959fc2f4944")
 	)
 	(wire
 		(pts
@@ -679,7 +687,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 109.22) (xy 140.97 119.38)
+			(xy 140.97 114.3) (xy 140.97 119.38)
 		)
 		(stroke
 			(width 0)
@@ -696,16 +704,6 @@
 			(type default)
 		)
 		(uuid "e3d9dd01-be05-41ed-8bff-cf101f8d3eb0")
-	)
-	(wire
-		(pts
-			(xy 120.65 106.68) (xy 132.08 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcd6f170-3bba-44c9-b16d-83de91c4eabd")
 	)
 	(label "SWCLK"
 		(at 120.65 101.6 0)
@@ -725,82 +723,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7fd0543f-20b8-466b-aa56-cb08cafc2bf1")
-	)
-	(symbol
-		(lib_id "SM03B-SRSS-TB:SM03B-SRSS-TB")
-		(at 132.08 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f103199-9170-48ff-8213-117aaf6ed5ce")
-		(property "Reference" "J4"
-			(at 146.05 102.8699 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM03B-SRSS-TB"
-			(at 146.05 105.4099 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CONN_SM03B-SRSS-TB_JST"
-			(at 132.08 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "SM03B-SRSS-TB"
-			(at 132.08 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73fcb061-e51b-4c5e-b388-8cd1d904dc3f")
-		)
-		(pin "3"
-			(uuid "3499c8ba-7bf0-4c5e-8d5a-d5e10c068543")
-		)
-		(pin "2"
-			(uuid "5892bfef-58ce-42ac-8b2a-f3a3b495fe6a")
-		)
-		(instances
-			(project ""
-				(path "/31ba118e-63c6-4589-abeb-d0c379bb13c1/c6c9b9a9-ddbf-445b-97cd-a6e878077684/266ce9e5-2999-4c85-a3f1-1dd81239aec3"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "7fd0543f-20b8-466b-aa56-cb08cafc2bf2")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -863,6 +786,84 @@
 			(project ""
 				(path "/31ba118e-63c6-4589-abeb-d0c379bb13c1/c6c9b9a9-ddbf-445b-97cd-a6e878077684/266ce9e5-2999-4c85-a3f1-1dd81239aec3"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-12-23_04-50-52:SM03B-SRSS-TB")
+		(at 132.08 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9302d731-4a40-4e20-a410-feaff9a98b1c")
+		(property "Reference" "J4"
+			(at 146.05 104.1399 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM03B-SRSS-TB"
+			(at 146.05 106.6799 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONN_SM03B-SRSS-TB_JST"
+			(at 131.064 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SM03B-SRSS-TB"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e5f7e4b9-550d-4416-9810-a5ba729f23b9")
+		)
+		(pin "MP"
+			(uuid "acba8bd9-b8c5-451d-ae3e-a40c39b8cb94")
+		)
+		(pin "2"
+			(uuid "e478d1d7-2d04-4ef2-91c4-b6f4a8e6d5c2")
+		)
+		(pin "1"
+			(uuid "d63c4008-8ab3-4fc8-ae96-6a79b419d2d8")
+		)
+		(instances
+			(project ""
+				(path "/31ba118e-63c6-4589-abeb-d0c379bb13c1/c6c9b9a9-ddbf-445b-97cd-a6e878077684/266ce9e5-2999-4c85-a3f1-1dd81239aec3"
+					(reference "J4")
 					(unit 1)
 				)
 			)
