@@ -439,6 +439,7 @@
       "bus_entry_needed": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
@@ -661,7 +662,7 @@
         "uuid": "3ea5a38f-3abe-4456-b6d4-eace866449fb"
       }
     ],
-    "used_designators": "#PWR21-22,D1",
+    "used_designators": "R3",
     "variants": []
   },
   "sheets": [

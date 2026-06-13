@@ -2623,6 +2623,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 67.31) (xy 233.68 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "893c31dc-9690-4b70-9c8e-191edf8912e5")
+	)
+	(wire
+		(pts
 			(xy 186.69 104.14) (xy 186.69 115.57)
 		)
 		(stroke
@@ -3129,7 +3139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 237.49 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3602,7 +3612,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 233.68 67.31 90)
+		(at 224.79 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3613,7 +3623,7 @@
 		(fields_autoplaced yes)
 		(uuid "34c50979-b69e-450d-9622-8a48d778fe2f")
 		(property "Reference" "#PWR022"
-			(at 237.49 67.31 0)
+			(at 228.6 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3624,7 +3634,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 229.87 67.3099 90)
+			(at 220.98 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3635,7 +3645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 67.31 0)
+			(at 224.79 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3646,7 +3656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 67.31 0)
+			(at 224.79 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3657,7 +3667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 233.68 67.31 0)
+			(at 224.79 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5088,6 +5098,86 @@
 			(project "IMU-test-board"
 				(path "/3ea5a38f-3abe-4456-b6d4-eace866449fb"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 228.6 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e406371-0d2e-4d85-9582-f8820feefa94")
+		(property "Reference" "R3"
+			(at 228.6 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200"
+			(at 228.6 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 228.6 69.088 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 228.6 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9af9f3a4-718b-4ac9-a5de-4d461648e9d7")
+		)
+		(pin "1"
+			(uuid "3f28015b-797b-4d59-a6c2-1e5d099cbae4")
+		)
+		(instances
+			(project "IMU-test-board"
+				(path "/3ea5a38f-3abe-4456-b6d4-eace866449fb"
+					(reference "R3")
 					(unit 1)
 				)
 			)
