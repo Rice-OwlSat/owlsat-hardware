@@ -479,7 +479,14 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/GPS and CAN/RESET_N": [
+        "RESET_N"
+      ],
+      "/GPS and CAN/VCC": [
+        "VCC"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
